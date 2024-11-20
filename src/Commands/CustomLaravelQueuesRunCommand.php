@@ -20,7 +20,7 @@ class CustomLaravelQueuesRunCommand extends Command
 
         $allowedClasses = config('custom-laravel-queues.allowed_classes', []);
 
-        if (!in_array($class, $allowedClasses)) {
+        if (! in_array($class, $allowedClasses)) {
             $log->error("Error running {$class}::{$method}: Unauthorized class");
 
             throw new \Exception("Unauthorized class: $class");
