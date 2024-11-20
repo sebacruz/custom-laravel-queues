@@ -2,9 +2,9 @@
 
 namespace Cruz\CustomLaravelQueues\Tests;
 
+use Cruz\CustomLaravelQueues\CustomLaravelQueuesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cruz\CustomLaravelQueues\CustomLaravelQueuesServiceProvider;
 
 class TestCase extends Orchestra
 {
