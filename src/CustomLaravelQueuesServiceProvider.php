@@ -8,11 +8,6 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class CustomLaravelQueuesServiceProvider extends PackageServiceProvider
 {
-    // public function register(): void
-    // {
-    //     parent::register();
-
-    // }
 
     public function configurePackage(Package $package): void
     {
