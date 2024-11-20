@@ -2,16 +2,15 @@
 
 namespace Cruz\CustomLaravelQueues;
 
+use Cruz\CustomLaravelQueues\Commands\CustomLaravelQueuesRunCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cruz\CustomLaravelQueues\Commands\CustomLaravelQueuesRunCommand;
 
 class CustomLaravelQueuesServiceProvider extends PackageServiceProvider
 {
     // public function register(): void
     // {
     //     parent::register();
-
 
     // }
 
