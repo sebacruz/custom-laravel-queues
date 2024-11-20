@@ -2,7 +2,7 @@
 
 // config for Cruz/CustomLaravelQueues
 return [
-  'allowed_classes' => [
-    'TestClass'
-  ]
+    'allowed_classes' => [
+        'TestClass',
+    ],
 ];
